@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Music Awareness</title>
 </head>
+
 <body>
     <ul>
-        <li><a href="index.html"> <img src="1.png"> Home </a></li>
-        <li><a href="quiz.html"> <img src="2.png"> Quiz </a></li>
+        <li><a href="index.html"> <img src="/GlobalMusicAwarenessImages/1.png"> Home </a></li>
+        <li><a href="quiz.html"> <img src="/GlobalMusicAwarenessImages/2.png"> Quiz </a></li>
     </ul>
+
+    <div class="genre-form">
+        <label for="genre"> Choose a genre: </label>
+        <select name="genre" id="genre">
+            <!-- Lmk if you want something to be selected by default -->
+            <option value="free"> Genre 1 </option>
+            <option value="bronze"> Genre 2 </option>
+            <option value="silver"> Genre 3 </option>
+        </select>
+    </div>
+
+    <div class="playlist-form">
+        <label for="playlist"> Choose a playlist: </label>
+        <select name="playlist" id="playlist">
+            <!-- Lmk if you want something to be selected by default -->
+            <option value="free"> Playlist 1 </option>
+            <option value="bronze"> Playlist 2 </option>
+            <option value="silver"> Playlist 3 </option>
+        </select>
+    </div>
+
+
 </body>
+
 </html>
