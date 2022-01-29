@@ -14,27 +14,47 @@
         <li><a href="quiz.html"> <img src="/GlobalMusicAwarenessImages/2.png"> Quiz </a></li>
     </ul>
 
-    <div class="genre-form">
-        <label for="genre"> Choose a genre: </label>
-        <select name="genre" id="genre">
-            <!-- Lmk if you want something to be selected by default -->
-            <option value="free"> Genre 1 </option>
-            <option value="bronze"> Genre 2 </option>
-            <option value="silver"> Genre 3 </option>
-        </select>
-    </div>
 
-    <div class="playlist-form">
-        <label for="playlist"> Choose a playlist: </label>
-        <select name="playlist" id="playlist">
-            <!-- Lmk if you want something to be selected by default -->
-            <option value="free"> Playlist 1 </option>
-            <option value="bronze"> Playlist 2 </option>
-            <option value="silver"> Playlist 3 </option>
-        </select>
-    </div>
+    <label for="country">Country:</label>
+    <select id="country" onchange="formChange()">
+        <option value="0">Select Country</option>
+        <option value="1">Country 1</option>
+        <option value="2">Country 2</option>
+    </select>
 
+    <div id="country1" style="display:none">
+        <form name="Country1">
+            <label for="country1">Playlist:</label>
+            <select id="country1" onchange="formChange()">
+                <option value="playlist1a">Playlist 1a</option>
+                <option value="playlist2a">Playlist 2a</option>
+            </select>
+    </div>
+    <div id="country2" style="display: none">
+        <form name="Country2">
+            <label for="country">Playlist:</label>
+            <select id="country" onchange="formChange()">
+                <option value="playlist1b">Playlist 1b</option>
+                <option value="playlist2b">Playlist 2b</option>
+            </select>
+    </div>
+    <script>
+        function formChange() {
+            var opt = document.getElementById("country").value;
+            if (opt == 1) {
+                document.getElementById("country1").style.display = "block";
+                document.getElementById("country2").style.display = "none";
+            }
+            else if (opt == 2) {
+                document.getElementById("country1").style.display = "none";
+                document.getElementById("country2").style.display = "block";
+            }
+            else {
+                document.getElementById("country1").style.display = "none";
+                document.getElementById("country2").style.display = "none";
+            }
+        }
+    </script>
 
 </body>
-
 </html>
