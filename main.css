@@ -1,6 +1,11 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 .btn.dropdown-toggle  {
     width:150px;
-    text-align:left;
+    text-align: center;
 }
 
 span.caret {
@@ -21,15 +26,20 @@ img {
     width:140px;
     height:140px;
 }
-
+/* Green color: 3b7d4a */
 .btn-success {
-    background-color: #3b7d4a!important;
+    background-color: #ea638c!important;
 }
 
 .btn-success:hover {
-    background-color: #4daf64!important;
+    background-color: #ea638c!important;
 }
 
 img.track {
     border: 1px solid #8a8a8a;
+}
+
+ul {
+  list-element: white;
+  color: white;
 }
