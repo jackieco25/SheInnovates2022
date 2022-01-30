@@ -168,8 +168,8 @@ const APPController = (function(UICtrl, APICtrl) {
         '37i9dQZEVXbK4fwx2r07XW', '37i9dQZEVXbM1EaZ0igDlz', '37i9dQZEVXbND4ZYa46PaA',
         '37i9dQZEVXbKzoK95AbRy9', '37i9dQZEVXbMda2apknTqH', '37i9dQZEVXbLJ0paT1JkgZ',
         '37i9dQZEVXbL1Fl8vdBUba', '37i9dQZEVXbLKI6MPixefZ', '37i9dQZEVXbMw2iUtFR5Eq',
-        '37i9dQZEVXbMPoK06pe7d6']; //choose 10
-        //37i9dQZEVXbLJ0paT1JkgZ
+        '37i9dQZEVXbMPoK06pe7d6'];
+        
     const countryNames = [
         'Top Songs - Australia', 'Top Songs - Austria',  'Top Songs - Belgium','Top Songs - Brazil','Top Songs - Canada', 'Top Songs - Chile','Top Songs - Colombia',
         'Top Songs - Czech Republic','Top Songs - Denmark','Top Songs - Dominican'];
@@ -183,9 +183,6 @@ const APPController = (function(UICtrl, APICtrl) {
         const token = await APICtrl.getToken();
         //store the token onto the page
         UICtrl.storeToken(token);
-        //get the genres
-
-        //const playlists = await APICtrl.getPlaylist(token,countryIds);
 
         const playlistSelect = document.getElementById('select_playlist');
         for(let i = 0; i < countryNames.length; i++){

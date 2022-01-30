@@ -71,6 +71,10 @@ body {
   padding: 20px;
 }
 
+.quiz-result {
+  margin-bottom: 60px;
+}
+
 .quiz-result.good {
   font-size: x-large;
   font-family: 'Gothic A1', sans-serif;
@@ -87,3 +91,23 @@ body {
   background: #ff3631;
 }
 
+a {
+  font-family: 'Gothic A1', sans-serif;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  text-align: center;
+  margin-left: 15%;
+  margin: 70% 0 0 15%;
+}
+
+a:link, a:visited {
+  background-color: #68a0c5;
+  border: #3595ad;
+}
+
+a:hover {
+  background-color: #5184a7;
+  border: #247083;
+}
