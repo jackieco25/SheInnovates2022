@@ -52,14 +52,14 @@ img.track {
 
 ul {
   background-color: /* #f1f1f1 */ black;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: /* #f1f1f1 */ black;
-  height: 100%; /* Full height */
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 15%;
+ background-color: /* #f1f1f1 */ black;
+ height: 100%; /* Full height */
+ position: fixed; /* Make it stick, even on scroll */
+ overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
 form {
@@ -79,14 +79,13 @@ h1 {
 button {
   text-align: center;
   width: 83.5%;
-
 }
 
 .image {
   position: fixed;
-  margin-left: 60%;
+  margin-left: 55.5%;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 0%;
   padding: 30px;
 }
 
@@ -101,7 +100,8 @@ a:link, a:visited {
   background-color: #ea638c;
   border: #ea638c;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 
 a:hover {
@@ -110,11 +110,12 @@ a:hover {
   background-color: #CF4D76;
   border: #CF4D76;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 
-.square {
-  height: 25px;
-  width: 100%;
-  background-color: transparent;
+.quizBtn {
+  position: fixed;
+  margin-top: 36%;
+  margin-left: 68.8%;
 }
