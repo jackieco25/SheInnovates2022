@@ -7,152 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="quiz.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap'); </style>
+    <script src="jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
     <div class="quiz">
-        <h2 class="quiz-question">Q1: How do you spell "Red"?</h2>
-        <form data-quiz-question="1">
-            <li class="quiz-answer" data-quiz-answer="a">a. Red</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. Reed</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. Req</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. Sed</li>
-        </form>
 
-        <h2 class="quiz-question">Q2: How do you spell "Green"?</h2>
-        <form data-quiz-question="2">
-            <li class="quiz-answer" data-quiz-answer="a">a. Greeen</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. Green</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. Gren</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. Grenn</li>
-        </form>
+        <h2 class="quiz-question"> Q1: What is the best selling album in the US of all time? </h2>
+        <ul data-quiz-question="1">
+            <li class="quiz-answer" data-quiz-answer="a">a. 21 by Adele </li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Their Greatest Hits by The Eagles </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. The Joshua Tree by U2 </li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Back in Black by AC/DC </li>
+        </ul>
 
-        <h2 class="quiz-question">Q3: How do you spell "Blue"?</h2>
-        <form data-quiz-question="3">
-            <li class="quiz-answer" data-quiz-answer="a">a. Bluue</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. Bluee</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. Btue</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. Blue</li>
-        </form>
+        <h2 class="quiz-question"> Q2: Which of the following artists is NOT from Latin America? </h2>
+        <ul data-quiz-question="2">
+            <li class="quiz-answer" data-quiz-answer="a">a. Juan Gabriel </li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Shakira </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. Leda Valladares</li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Enrique Iglesias </li>
+        </ul>
 
-        <h2 class="quiz-question">Q4: How do you spell "HTML"?</h2>
-        <form data-quiz-question="4">
-            <li class="quiz-answer" data-quiz-answer="a">a. MLTH</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. LMTH</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. HTML</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. HMTL</li>
-        </form>
+        <h2 class="quiz-question">Q3: The band Måneskin, who won Eurovision in 2021, is from what country? </h2>
+        <ul data-quiz-question="3">
+            <li class="quiz-answer" data-quiz-answer="a">a. Italy</li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Sweden </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. Norway </li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Denmark </li>
+        </ul>
 
-        <h2 class="quiz-question">Q5: How do you spell "CSS"?</h2>
-        <form data-quiz-question="5">
-            <li class="quiz-answer" data-quiz-answer="a">a. ASS</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. CAA</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. ASA</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. CSS</li>
-        </form>
+        <h2 class="quiz-question"> Q4: Isicathamiya, which originated with the Zulu people of South Africa, is what style of music? </h2>
+        <ul data-quiz-question="4">
+            <li class="quiz-answer" data-quiz-answer="a">a. Percussion </li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Wind Instruments </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. A cappella </li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Whistling </li>
+        </ul>
 
-        <h2 class="quiz-question">Q6: How do you spell "JavaScript"?</h2>
-        <form data-quiz-question="6">
-            <li class="quiz-answer" data-quiz-answer="a">a. ScriptJava</li>
-            <li class="quiz-answer" data-quiz-answer="b">b. JavaScript</li>
-            <li class="quiz-answer" data-quiz-answer="c">c. JabaHutt</li>
-            <li class="quiz-answer" data-quiz-answer="d">d. jQuery</li>
-        </form>
+        <h2 class="quiz-question"> Q5: Who was the first Indian to win a Grammy, and what instrument did they play? </h2>
+        <ul data-quiz-question="5">
+            <li class="quiz-answer" data-quiz-answer="a">a. Ustad Bismallah Khan - Shenai </li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Patri Satish Kumar - Mridangam </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. Ravi Shankar - Sitar </li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Pandit Bickram Gosh - Tabla </li>
+        </ul>
+
+        <h2 class="quiz-question"> Q6: Which of the following is not an Aboriginal instrument?</h2>
+        <ul data-quiz-question="6">
+            <li class="quiz-answer" data-quiz-answer="a">a. Yidaki </li>
+            <li class="quiz-answer" data-quiz-answer="b">b. Bilma </li>
+            <li class="quiz-answer" data-quiz-answer="c">c. Billabong </li>
+            <li class="quiz-answer" data-quiz-answer="d">d. Gum Leaf </li>
+        </ul>
     </div>
+    <div class="quiz-result"></div>
+    <script type="text/javascript" src="quiz.js"> </script>
 
-    <div class="quiz-result"> </div>
-    <script> var Quiz = function () {
-            var self = this;
-            this.init = function () {
-                self._bindEvents();
-            }
-
-            this.correctAnswers = [
-                { question: 1, answer: 'a' },
-                { question: 2, answer: 'b' },
-                { question: 3, answer: 'd' },
-                { question: 4, answer: 'c' },
-                { question: 5, answer: 'd' },
-                { question: 6, answer: 'b' },
-            ]
-
-            this._pickAnswer = function ($answer, $answers) {
-                $answers.find('.quiz-answer').removeClass('active');
-                $answer.addClass('active');
-            }
-            this._calcResult = function () {
-                var numberOfCorrectAnswers = 0;
-                $('ul[data-quiz-question]').each(function (i) {
-                    var $this = $(this),
-                        chosenAnswer = $this.find('.quiz-answer.active').data('quiz-answer'),
-                        correctAnswer;
-
-                    for (var j = 0; j < self.correctAnswers.length; j++) {
-                        var a = self.correctAnswers[j];
-                        if (a.question == $this.data('quiz-question')) {
-                            correctAnswer = a.answer;
-                        }
-                    }
-
-                    if (chosenAnswer == correctAnswer) {
-                        numberOfCorrectAnswers++;
-
-                        // highlight this as correct answer
-                        $this.find('.quiz-answer.active').addClass('correct');
-                    }
-                    else {
-                        $this.find('.quiz-answer[data-quiz-answer="' + correctAnswer + '"]').addClass('correct');
-                        $this.find('.quiz-answer.active').addClass('incorrect');
-                    }
-                });
-                if (numberOfCorrectAnswers < 3) {
-                    return { code: 'bad', text: 'Poor spelling skills' };
-                }
-                else if (numberOfCorrectAnswers == 3 || numberOfCorrectAnswers == 4) {
-                    return { code: 'mid', text: 'Moderate spelling skills' };
-                }
-                else if (numberOfCorrectAnswers > 4) {
-                    return { code: 'good', text: 'Good spelling skills' };
-                }
-            }
-            this._isComplete = function () {
-                var answersComplete = 0;
-                $('ul[data-quiz-question]').each(function () {
-                    if ($(this).find('.quiz-answer.active').length) {
-                        answersComplete++;
-                    }
-                });
-                if (answersComplete >= 6) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
-            this._showResult = function (result) {
-                $('.quiz-result').addClass(result.code).html(result.text);
-            }
-            this._bindEvents = function () {
-                $('.quiz-answer').on('click', function () {
-                    var $this = $(this),
-                        $answers = $this.closest('ul[data-quiz-question]');
-                    self._pickAnswer($this, $answers);
-                    if (self._isComplete()) {
-
-                        // scroll to answer section
-                        $('html, body').animate({
-                            scrollTop: $('.quiz-result').offset().top
-                        });
-
-                        self._showResult(self._calcResult());
-                        $('.quiz-answer').off('click');
-
-                    }
-                });
-            }
-        }
-        var quiz = new Quiz();
-        quiz.init(); </script>
 </body>
 
 </html>
