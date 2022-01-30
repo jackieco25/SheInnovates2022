@@ -70,3 +70,27 @@ h1 {
   background-color: black;
   width: 100%;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  background-color: #ea638c;
+  border: #ea638c;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #CF4D76;
+  border: #CF4D76;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.square {
+  height: 25px;
+  width: 100%;
+  background-color: transparent;
+}
