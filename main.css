@@ -1,11 +1,12 @@
 body {
-  background-color: black;
+  background-image: linear-gradient(30deg, #121212 0%, #181818 100%);
   color: white;
   text-align: center;
+  font-family: 'Gothic A1', sans-serif;
 }
 .btn.dropdown-toggle  {
-    width:150px;
-    text-align: center;
+  width:150px;
+  text-align: left;
 }
 
 span.caret {
@@ -15,11 +16,14 @@ span.caret {
 }
 
 label {
-    padding-top:5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    text-align: left;
 }
 
 .form-label {
     padding-left:0px !important;
+    padding-right:10px !important;
 }
 
 img {
@@ -29,10 +33,12 @@ img {
 /* Green color: 3b7d4a */
 .btn-success {
     background-color: #ea638c!important;
+    border-color: #ea638c!important;
 }
 
 .btn-success:hover {
-    background-color: #ea638c!important;
+    background-color: #CF4D76!important;
+    border-color: #CF4D76!important;
 }
 
 img.track {
@@ -40,6 +46,27 @@ img.track {
 }
 
 ul {
-  list-element: white;
-  color: white;
+  background-color: /* #f1f1f1 */ black;
+list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 15%;
+ background-color: /* #f1f1f1 */ black;
+ height: 100%; /* Full height */
+ position: fixed; /* Make it stick, even on scroll */
+ overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+form {
+  padding-left: 30px;
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  background-color: black;
+  width: 100%;
 }
