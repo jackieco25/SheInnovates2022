@@ -102,7 +102,7 @@ const UIController = (function() {
             const html =
             `
             <div class="row col-sm-12 px-0">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${id}?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>            </div>
+                <iframe style="border-radius:12px;margin:50px;" src="https://open.spotify.com/embed/playlist/${id}?utm_source=generator" width="78%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
             `;
 
@@ -125,7 +125,7 @@ const UIController = (function() {
             const html =
             `
             <div class="row col-sm-12 px-0">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${id}?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>            </div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${id}?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
             `;
 
